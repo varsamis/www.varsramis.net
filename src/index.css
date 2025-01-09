@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-flow: column;
+  height: 750px;
+}
+
+.language-switch img {
+  width: 5rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* filepath: /Users/varsamisk/workspace/www.varsramis.net/src/index.css */
+:root {
+  --background-color: #ffffff;
+  --text-color: #000000;
+}
+
+.dark {
+  --background-color: #000000;
+  --text-color: #ffffff;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
