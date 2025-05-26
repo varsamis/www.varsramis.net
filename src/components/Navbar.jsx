@@ -3,6 +3,7 @@ import { texts } from "../data";
 import { Link } from "react-scroll";
 import LanguageSwitch from "./LanguageSwitch";
 import DarkMode from "./DarkMode";
+import Avatar from "./Avatar";
 
 const Navbar = () => {
   return (
@@ -28,6 +29,9 @@ const Navbar = () => {
       </div>
       <div className="navbar-darkmode">
         <DarkMode />
+      </div>
+      <div className="navbar-avatar">
+        <Avatar />
       </div>
     </nav>
   );

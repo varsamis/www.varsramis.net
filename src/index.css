@@ -12,13 +12,18 @@
 
 /* filepath: /Users/varsamisk/workspace/www.varsramis.net/src/index.css */
 :root {
-  --background-color: #ffffff;
+  --background-color: #f7f2e6;
   --text-color: #000000;
 }
 
 .dark {
   --background-color: #000000;
-  --text-color: #ffffff;
+  --text-color: #f7f2e6;
+
+}
+
+svg.contact-icon {
+  fill: var(--text-color);
 }
 
 body {

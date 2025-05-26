@@ -8,7 +8,9 @@ function Experience() {
 
   return (
     <Element name={mainKey} className="container">
-      <p key={mainKey}>{texts.experience[selectedLanguage]}</p>
+     {texts[mainKey][selectedLanguage].map((item, i) => (
+        <p key={i}>{item}</p>
+      ))}{" "}
     </Element>
   );
 }
